@@ -5,6 +5,8 @@ let nameinput = document.getElementById("nomeid")
 let telefoneinput = document.getElementById("telefoneid")
 let emailinput = document.getElementById("emailid")
 
+// adicionando os eventos
+
 forms.addEventListener("submit", (event) => {
     event.preventDefault();
 
@@ -19,7 +21,7 @@ forms.addEventListener("submit", (event) => {
         alert ("preencha seu telefone");
         return;
     }
-    // verifica se o nome esta vazio 
+    // verifica se o email esta vazio 
     if (emailinput.value === "") {
         alert ("preencha seu email");
         return;
