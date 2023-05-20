@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenLight-page-menu</title>
+
+    <!-- link com google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+    <!-- link com css  -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/headers.css">
+    <link rel="stylesheet" href="./css/btn.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/cards.css">
+
+
+    <!-- link do ícone  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+
+    <div class="container1">--
+        <!-- começo do header  -->
+        <header class="header-page">
+            <h2>GreenLight</h2>
+                <nav class="header-menu">
+                    <ul>
+                        <a href="#publi" class="btn">Publicacoes</a>
+                        <a href="#cc" class="btn">Contato</a>
+                        <a href="#lgn" class="btn">Login</a>
+                    </ul>
+                </nav>
+        </header>
+        <!-- fim do header  -->
+    </div>
+    <!-- pagina inicial  -->
+        <div class="container2 bg-image">
+            <div class="hero">
+                <h1>Quem Somos?</h1>
+                <h3>Viemos como uma alternativa as atuais redes sociais</h3>
+            </div>
+        </div>
+        <!-- começo da pagina dos cards  -->
+        <div class="container4" id="publi">
+            <h1 class="destaque">
+
+            Destaques Para Você  <i class="fa-solid fa-tree"></i>
+
+            <!-- card 1  -->
+            </h1>
+            <div class="card-item">
+                <h3>@_verde123</h3>
+                <img src="./images/publicacoes/arvore-plantio-muda-scaled.jpg" alt="">
+                <p>Um ótimo dia para amanhecer bem :) </p>
+            </div>
+            <!-- card 2  -->
+            <div class="card-item">
+                <h3>@ajudantes_do_mundo</h3>
+                <img src="./images/publicacoes/b8099e72-08b8-4fe0-9ce7-2c3adc17fc3e.jpg" alt="">
+                <p>Hoje foi dia de evento ao público.</p>
+            </div>
+             <!-- card 3  -->
+            <div class="card-item">
+                <h3>@especialistas_em_plantas</h3>
+                <img src="./images/publicacoes/Douglas-Macedo-plantio-Parque-Esportivo-do-Caramujo-3.jpg" alt="">
+                <p>Elas crescem tão rápido, trocando os vasos!!</p>
+            </div>
+             <!-- card 4  -->
+            <div class="card-item">
+                <h3>@welcome_to_the_matos87</h3>
+                <img src=".//images/publicacoes/imagem_noticia___r-jpg___r__camargo__ambiental__1515430187__0801182018104947.jpg" alt="">
+                <p>#tbtcomagalera saudades!</p>
+            </div>
+             <!-- card 5  -->
+            <div class="card-item">
+                <h3>@mae_da_natureza2</h3>
+                <img src="./images/publicacoes/IMG-20210921-WA0060-1024x682.jpg" alt="">
+                <p>Dia de plantas na escola.#18demaio</p>
+            </div>
+             <!-- card 6  -->
+            <div class="card-item">
+                <h3>@plantas_anonimas98</h3>
+                <img src="./images/publicacoes/plantio-725675.webp" alt="">
+                <p>Melhorando o mundo!#felicidade</p>
+            </div>
+             <!-- card 7  -->
+            <div class="card-item">
+                <h3>@fiscalizadores_Oficial</h3>
+                <img src="./images/publicacoes/plantio-arvores-SEMA-Emerson-Dias_NCom-1.jpg" alt="">
+                <p>Fiscalização em dia pessoal!#fiscalizando</p>
+            </div>
+             <!-- card 8  -->
+            <div class="card-item">
+                <h3>@jerson_flores45</h3>
+                <img src="./images/publicacoes/produtor_rodrigo_mostrando_a_producao_ao_secretario_rene-19100960.webp" alt="">
+                <p>Aprendendo mais sobre frutas! Delicia!</p>
+            </div>
+        </div>
+
+        <!-- começo da área de contato  -->
+        <div class="container3 bg-image1" id="cc">
+            <form class="contato" id="formsid">
+                <h1>Contato</h1>
+                <p class="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nomeid" placeholder="Digite seu nome" >
+                </p>
+                <p class="telefone">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefoneid" placeholder="Digite seu telefone" >
+                </p>
+                <p class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="emailid" placeholder="Digite seu email" >
+                </p>
+                <input type="submit" class="submit" value="Enviar">
+            </form>
+            <!-- fim do contato  -->
+        </div>
+        <!-- começo da área de login  -->
+        <div class="container2" id="lgn">
+            <form class="login">
+                <h1>Login ou Cadastre-se</h1>
+                <p class="usuario">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" placeholder="Digite seu usuario" required="required">
+                </p>
+                <p class="senha">
+                    <label for="senha">Senha:</label>
+                    <input type="text" placeholder="Digite sua senha" required="required">
+                </p>
+                <input type="submit" class="submit" value="Enviar">
+
+            </form>
+            <!-- fim da área de login  -->
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
